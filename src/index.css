@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* max-width: 1440px; */
+   
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+@font-face {
+    font-family: "Inter";
+    src: url('./assets/fonts/Inter-Regular.ttf');
+}
+
+
+h3{
+    color: var(--HEading, #222);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 18px;
+}
+h4{
+    color: var(--HEading, #222);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+}
+h2{
+    color: #008ECC;
+
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+h5{
+    color: var(--Text, #666);
+text-align: right;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px;
+}
+p{
+    color: var(--Text, #666);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+}
+.cart-flex{
+    display: flex;
+ 
+   flex-wrap: wrap;
+   /* gap: 15px; */
+   justify-content: center;
+
+}
+
+ul{
+    list-style: none;
+}

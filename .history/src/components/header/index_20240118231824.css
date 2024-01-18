@@ -1,0 +1,150 @@
+:root {
+    --white: rgba(243, 249, 251, 1);
+    --blue: #008ECC
+}
+
+.container {
+    padding: 0px 121px;
+}
+
+.header-parent {
+    height: 90px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-search {
+    background-color: var(--white);
+    width: 507px;
+    height: 48px;
+
+    border-radius: 10px;
+    padding: 0 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.header-sub-ul li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18)
+}
+
+.sm-searchbar {
+    display: none;
+}
+
+.header-input {
+    width: 100%;
+}
+
+.header-input input {
+    border: none;
+    background: var(--white);
+    padding: 10px;
+    outline: none;
+
+    width: 100%;
+}
+
+.header-dropdown {
+    gap: 10px;
+}
+
+.header-cart {
+    gap: 12px;
+}
+
+.header-count {
+    background-color: var(--blue);
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.sub-cart {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.header-sub-menu {
+    position: absolute;
+    width: 147px;
+
+    border-radius: 6px;
+    background: #EFFBFF;
+
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.18);
+    top: 54px;
+    justify-content: center;
+    padding: 18px;
+
+}
+
+
+.header-sub-menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+/* ..Responsiveness.. */
+@media(max-width:1130px) {
+
+
+    .container {
+        padding: 0 40px;
+    }
+
+    .md-searchbar {
+        display: none;
+    }
+
+    .header-search {
+
+        gap: 0px;
+
+        /* hidden */
+        width: 100vw;
+    }
+
+    .sm-searchbar {
+        display: flex;
+
+        gap: 0px;
+
+        position: relative;
+        align-items: center;
+
+
+    }
+
+
+}
+
+@media(max-width:860px) {
+    /* .header-search{
+        display: none;
+    } */
+}
+
+@media(max-width:600px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .header-logo img {
+        width: 120px;
+        height: 30px;
+    }
+
+    /* .header-search{
+        display: none;
+    } */
+}

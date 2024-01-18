@@ -1,0 +1,19 @@
+section {
+    background-color: #E1E1E1;
+    min-height: 100vh;
+}
+
+.home-parent {
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    .home-parent {
+        padding-top: 5px;
+    }
+
+    .section {
+        padding-top: 10px;
+    }
+
+}
